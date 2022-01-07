@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cv.css">
+  <title>C.V</title>
+</head>
+<body>
+  
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Ana Lucía Soto</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="images/gradientfondo.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>- </h2> 
+      <h3>Bienvenidx a mi C.V virtual</h3>
+      <p>Me llamo Ana Lucía Soto, soy una diseñadora gráfica mexicana; Me apasiona aprender y expresar mi lado creativo.
+         ¡Trabajemos juntos!</p>
+      <a href="#">Portafolio</a>
+    </div>
+
+
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Sobre Mí</a></li>
+      <li><a href="#">Habilidades</a></li>
+      <li><a href="#">Experiencia</a></li>
+      <li><a href="#">Educación</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+  </script>
+
+
+
+</body>
+</html>
